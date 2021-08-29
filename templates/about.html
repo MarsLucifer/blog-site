@@ -1,0 +1,38 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello Visitors!</p>
+                        <p>I am Chaitanya, a high school student of Delhi Public School Gandhinagar. I am planning to get my undergraduate degree in Computer Science from The United States of America.</p>
+                        <p>My skill sets contains</p>
+                        <ol type="1">
+                            <li>Python Programming</li>
+                            <li>HTML with CSS and Bootstrap</li>
+                            <li>Photoshop</li>
+                            <li>Photography</li>
+                        </ol>
+                        <p>In addition to this, I am also interested in learning more about Astrophysics and Nuclear Science</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
